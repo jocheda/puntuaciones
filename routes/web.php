@@ -15,8 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('typicode/posts/title', [PostController::class, 'title'])->name('posts.title');
-Route::get('typicode/posts/body', [PostController::class, 'body'])->name('posts.body');
 Route::get('typicode/posts/rating', [PostController::class, 'rating'])->name('posts.rating');
-Route::get('typicode/posts/saludo', [PostController::class, 'saludo'])->name('posts.saludo');
-
